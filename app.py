@@ -5,7 +5,7 @@ import torch
 # Check if CUDA is available
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-llm = Ollama (model = "llama3.2")
+llm = Ollama (model = "llama3.2") #Adjust the model based on the model you want
 
 st.title("Chatbot using llama3.2")
 
